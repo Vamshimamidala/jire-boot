@@ -1,0 +1,13 @@
+header{
+    background-color: aqua;
+    color: white;
+}
+.hire h1{
+    color: red;
+    font-size: medium;
+    padding: 10px 15px;
+}
+.hire h5{
+    font-size: medium;
+}
+ 

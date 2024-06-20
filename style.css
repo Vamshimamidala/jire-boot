@@ -1,0 +1,172 @@
+*body{
+    box-sizing: border-box;
+    
+}
+.top{
+    text-align: end;
+    padding: 15px 10px;
+    background-color: rgb(207, 240, 253);
+}
+header{
+    background-color: aqua;
+    color: white;
+    
+}
+.bg{
+    border: 1px solid white;
+}
+.bg h1{
+    color: rgb(180, 180, 247);
+}
+.bg span{
+    color: red;
+}
+.bg p{
+    font-size: medium;
+    font-weight: 900;
+    line-height: 2.6;
+}
+.bg img{
+    align-items: center;
+}
+ 
+.m-howItWork__listText {
+    background-image: url('images/bg\ \(2\).png');
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 100px; 
+  }
+  .m-howItWorkhdr {
+    font-size: 1.25rem; 
+    font-weight: bold;
+  }
+  .rr {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1 1 20%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 1px solid blueviolet;
+    padding: 10px 15px;
+    overflow: hidden;
+}
+
+.card img {
+    margin-right: 10px;
+}
+
+.card-body {
+    flex: 1;
+}
+.hide{
+    padding:10px 10px;
+    border-radius: 3px;
+}
+.hide .col-12{
+     box-shadow: 1px 10px 5px rgb(252, 167, 167);
+}
+.hide .col-12:hover img{
+    display: none;
+}
+.video{
+    padding: 10px 15px;
+    
+}
+.images img{
+     background-color: aliceblue;
+     border-width: 10px;
+     border-radius: 10px;
+     box-shadow: 1px 10px 5px rgb(241, 82, 82);
+     border: 1px solid white;
+}
+.text{
+    padding: 10px 10px;
+    border: 1px solid rgb(226, 44, 44);
+    background-color: rgb(70, 226, 226);
+    box-shadow: 1px 10px 5px rgb(241, 82, 82);
+    text-align: center;
+}
+.text h5{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+}
+.text h1{
+    color: rgb(216, 39, 39);
+}
+.client{
+    align-items: center;
+}
+.client h1{
+    text-align: center;
+    color: red;
+}
+.conta{
+    padding: 15px 15px;
+
+}
+.conta span{
+    color: red;
+}
+ .anim{
+     overflow: hidden;
+     transition: background-color 0.3s ease;
+ }
+ .anim h1{
+    text-align: center;
+    color: brown;
+ }
+ .anim li:hover{
+    background-color: #555;
+ }
+ .add{
+    padding: 15px 15px;
+ }
+ .add h1{
+    text-align: center;
+    color:rgb(167, 80, 80)
+ }
+ .add span{
+    color: grey;
+ }
+ .ff{
+    padding: 15px 10px;
+ }
+ .ff p{
+    color: rgb(180, 169, 8);
+    text-align: center;
+ }
+  footer{
+    text-align: center;
+    border: 2px solid black;
+    background-color: rgb(44, 7, 7);
+    color: aliceblue;
+  }
+  input[type="button"] {
+    background-color: red;
+    color: white;
+    border: 2px solid #7706b8af;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+input[type="button"]:hover {
+    background-color: white;
+    color: #e41111;
+}
+  .form h1{
+    text-align: center;
+    color: rgb(216, 39, 39);
+  }
+  .mobiless{
+    padding-right: 100px;
+    text-align: center;
+  }
